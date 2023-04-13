@@ -126,7 +126,7 @@ class _HomePageState extends State<HomePage> {
           ),
           Expanded(
             child: Container(
-              padding: EdgeInsets.symmetric(horizontal: 23, vertical: 64),
+              padding: EdgeInsets.symmetric(horizontal: 15, vertical: 64),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
