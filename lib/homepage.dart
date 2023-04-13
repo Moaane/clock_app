@@ -31,7 +31,7 @@ class _HomePageState extends State<HomePage> {
                   children: [
                     Image.asset(
                       'assets/clock_icon.png',
-                      scale: 1.5,
+                      scale: 1.8,
                     ),
                     Padding(
                       padding: const EdgeInsets.symmetric(vertical: 4.0),
@@ -41,7 +41,7 @@ class _HomePageState extends State<HomePage> {
                       style: TextStyle(
                           fontFamily: 'avenir',
                           color: Colors.white,
-                          fontSize: 14),
+                          fontSize: 13),
                     ),
                   ],
                 ),
@@ -55,7 +55,7 @@ class _HomePageState extends State<HomePage> {
                   children: [
                     Image.asset(
                       'assets/alarm_icon.png',
-                      scale: 1.5,
+                      scale: 1.8,
                     ),
                     Padding(
                       padding: const EdgeInsets.symmetric(vertical: 4.0),
@@ -65,7 +65,7 @@ class _HomePageState extends State<HomePage> {
                       style: TextStyle(
                           fontFamily: 'avenir',
                           color: Colors.white,
-                          fontSize: 14),
+                          fontSize: 13),
                     ),
                   ],
                 ),
@@ -79,7 +79,7 @@ class _HomePageState extends State<HomePage> {
                   children: [
                     Image.asset(
                       'assets/timer_icon.png',
-                      scale: 1.5,
+                      scale: 1.8,
                     ),
                     Padding(
                       padding: const EdgeInsets.symmetric(vertical: 4.0),
@@ -89,7 +89,7 @@ class _HomePageState extends State<HomePage> {
                       style: TextStyle(
                           fontFamily: 'avenir',
                           color: Colors.white,
-                          fontSize: 14),
+                          fontSize: 13),
                     ),
                   ],
                 ),
@@ -103,7 +103,7 @@ class _HomePageState extends State<HomePage> {
                   children: [
                     Image.asset(
                       'assets/stopwatch_icon.png',
-                      scale: 1.5,
+                      scale: 1.8,
                     ),
                     Padding(
                       padding: const EdgeInsets.symmetric(vertical: 4.0),
@@ -113,7 +113,7 @@ class _HomePageState extends State<HomePage> {
                       style: TextStyle(
                           fontFamily: 'avenir',
                           color: Colors.white,
-                          fontSize: 14),
+                          fontSize: 13),
                     ),
                   ],
                 ),
@@ -126,7 +126,7 @@ class _HomePageState extends State<HomePage> {
           ),
           Expanded(
             child: Container(
-              padding: EdgeInsets.symmetric(horizontal: 15, vertical: 64),
+              padding: EdgeInsets.symmetric(horizontal: 15, vertical: 84),
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
@@ -136,7 +136,7 @@ class _HomePageState extends State<HomePage> {
                           color: Colors.white,
                           fontSize: 24)),
                   SizedBox(
-                    height: 32,
+                    height: 8,
                   ),
                   Text(formattedTime,
                       style: TextStyle(
@@ -148,6 +148,9 @@ class _HomePageState extends State<HomePage> {
                           fontFamily: 'avenir',
                           color: Colors.white,
                           fontSize: 20)),
+                  SizedBox(
+                    height: 16,
+                  ),
                   ClockView(),
                   Text('Timezone',
                       style: TextStyle(
@@ -155,7 +158,7 @@ class _HomePageState extends State<HomePage> {
                           color: Colors.white,
                           fontSize: 24)),
                   SizedBox(
-                    height: 16,
+                    height: 8,
                   ),
                   Row(
                     children: [
